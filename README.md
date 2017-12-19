@@ -16,3 +16,5 @@ The R script file does the following steps
 3. Uses descriptive activity names to name the activities in the data set<br/>
 4. Appropriately labels the data set with descriptive variable names.<br/>
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br/>
+
+Again, the end result is the tidy.txt file, which keeps the mean value of each variable for each activity and each subject.
