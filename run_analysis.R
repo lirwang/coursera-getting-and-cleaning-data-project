@@ -130,7 +130,7 @@ colnames(humanactivity2) <- humanactivity2column
 library(dplyr)
 humanactivity2mean <- humanactivity2 %>%
       group_by(subject, activity) %>%
-      summarize_each(funs(mean))
+      summarize_all(funs(mean))
 
 #write the result into file "tidy.txt"
 write.table(humanactivity2mean, "tidy.txt", row.names = FALSE, quote = FALSE)
