@@ -17,4 +17,9 @@ The R script file does the following steps
 4. Appropriately labels the data set with descriptive variable names.<br/>
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br/>
 
-Again, the end result is the tidy.txt file, which keeps the mean value of each variable for each activity and each subject.
+This script requires the dplyr package (version 0.7.4 was used).
+
+
+Again, the end result is the tidy.txt file, which keeps the mean value of each variable for each activity and each subject.The tidy.txt file in this repository was created by running the run_analysis.R script using R version 3.4.1 (2017-12-19).
+
+
